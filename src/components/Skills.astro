@@ -1,0 +1,19 @@
+---
+import { Icon } from "astro-icon";
+import { ICONS } from "../config";
+---
+
+<div class="grid grid-cols-4 gap-8">
+  {
+    ICONS.data.map((item) => (
+      <div>
+        <span class="tooltip" data-tip={item.toolpit}>
+          <Icon
+            class="easy-in-out h-12 w-12 transition duration-200 hover:scale-125 hover:text-primary "
+            name={item.icon}
+          />
+        </span>
+      </div>
+    ))
+  }
+</div>
