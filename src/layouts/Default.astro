@@ -1,22 +1,22 @@
 ---
-import "../assets/base.css";
-import { SITE } from "../config";
+import "../assets/base.css"
 import BaseHead from "../components/BaseHead.astro";
 import SideBar from "../components/SideBar.astro";
 import NavBar from "../components/NavBar.astro";
+import i18next, { t } from "i18next";
 ---
 
 <!DOCTYPE html>
-<html lang="en" data-theme="winter">
+<html lang={i18next.language} data-theme="winter">
   <head>
-    <BaseHead title={SITE.title} description={SITE.description} />
+    <BaseHead title={t("SITE.title")} description={t("SITE.description")} />
   </head>
   <body>
     <div class="drawer-mobile drawer bg-base-100">
       <input id="my-drawer" type="checkbox" class="drawer-toggle" />
       <div class="drawer-content flex flex-col bg-base-100">
         <div class="md:flex md:justify-center">
-          <main class="max-w-[900px] p-6 pt-10">
+          <main class="max-w-[900px] p-6">
             <slot />
           </main>
         </div>

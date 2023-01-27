@@ -1,0 +1,35 @@
+{
+  "presentation": {
+    "hello": "Hi, I'm,  <0>Jose Valdez.</0> 👋  ",
+    "description": "I'm a web developer who focuses on building responsive full-stack applications with great user experiences"
+ 
+  },
+   "SITE":  {
+    "name": "Jose Valdez",
+    "title": "Jose Valdez Gaxiola",
+    "description": "Portfolio",
+    "githubUrl": "https://github.com/JoseValdezGaxiola"
+  },
+
+  "buttons": {
+    "about": "about me",
+    "contact": "get in contact"
+  },
+
+  "aboutme": {
+    "about": "About Me",
+    "skills": "Skills",
+    "projects": "Projects"
+  },
+  
+
+
+"about": [
+  {
+    "para": "After receiving a bachelor's degree in mechatronics engineering from Universidad La Salle Noroeste, I started working on a university-funded project, an interactive large desk that included multiple games for kids with learning disabilities. I worked on the software part of the project, and after finishing the project I knew that I wanted to work on the software side of things."
+  },
+  {
+    "para": "In 2021 I heard about the Full Stack open course imparted by the University of Helsinki, but it wasn't until 2022 that I enrolled, started to develop my own applications, and learned different tools along the way (Astrojs,NextJS and TailWindCSS are the most popular tools for developing my own applications)."
+  }
+]
+}

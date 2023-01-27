@@ -1,0 +1,33 @@
+{
+    "presentation": {
+      "hello": "Hola, Soy,  <0>Jose Valdez.</0> 👋  ",
+      "description": "Soy un desarrollador web que se centra en la creacion de aplicaciones adaptables full-stack con grandes experiencias de usuario"
+   
+    },
+    "SITE":  {
+      "name": "Jose Valdez",
+      "title": "Jose Valdez Gaxiola",
+      "description": "Portafolio",
+      "githubUrl": "https://github.com/JoseValdezGaxiola"
+    },
+
+    "buttons": {
+      "about": "sobre mí",
+      "contact": "contáctame"
+    },
+    "aboutme": {
+      "about": "Sobre mí",
+      "skills": "Habilidades",
+      "projects": "Proyectos"
+    },
+  
+  
+    "about": [
+      {
+        "para": "Tras licenciarme en ingeniería mecatrónica por la Universidad La Salle Noroeste, empecé a trabajar en un proyecto financiado por la universidad, un gran escritorio interactivo que incluía múltiples juegos para niños con dificultades de aprendizaje. Trabajé en la parte de software del proyecto, y después de terminar el proyecto supe que quería trabajar en la parte de software."
+      },
+      {
+        "para": "En 2021 oí hablar del curso Full Stack Open impartido por la Universidad de Helsinki, pero no fue hasta 2022 cuando lo tome, empecé a desarrollar mis propias aplicaciones y aprendí diferentes herramientas por el camino (Astrojs,NextJS y TailWindCSS son las herramientas más populares para desarrollar mis propias aplicaciones)."
+      }
+    ]
+    }
