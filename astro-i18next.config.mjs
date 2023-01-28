@@ -1,5 +1,5 @@
 {
-  import("astro-i18next").AstroI18nextConfig
+  import("astro-i18next").AstroI18nextConfig;
 }
 export default {
   defaultLocale: "en",
@@ -9,4 +9,4 @@ export default {
       about: "acerca",
     },
   },
-}
+};

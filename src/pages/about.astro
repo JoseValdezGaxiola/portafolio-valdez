@@ -3,7 +3,7 @@ import Default from "../layouts/Default.astro";
 import Projects from "../components/Projects.astro";
 import Skills from "../components/Skills.astro";
 
-import  { t, changeLanguage } from "i18next";
+import { t, changeLanguage } from "i18next";
 import { LanguageSelector } from "astro-i18next/components";
 
 changeLanguage("en");
@@ -14,22 +14,26 @@ let about = t("about", { returnObjects: true });
 <Default>
   <div class="hidden md:flex md:justify-end">
     <LanguageSelector
-    class=" py-2 px-2 font-semibold bg-transparent hover:bg-gray-50 border-2"
-    showFlag={true}
-  />  
+      class="py-2 px-2 font-semibold bg-transparent hover:bg-gray-50 border-2"
+      showFlag={true}
+    />
   </div>
-  
+
   <div>
-    <div class="avatar m-auto mt-8 md:mt-3 mb-6 block w-1/3 lg:w-1/4">
+    <div class="avatar m-auto mt-8 mb-6 block w-1/3 md:mt-3 lg:w-1/4">
       <div>
         <img class="mask mask-circle" src="/profile.jpg" alt="profile image" />
       </div>
     </div>
   </div>
-  <h1 class="mb-4 text-2xl font-bold text-primary md:text-3xl">{t("aboutme.about")}</h1>
+  <h1 class="mb-4 text-2xl font-bold text-primary md:text-3xl">
+    {t("aboutme.about")}
+  </h1>
   {about.map((item) => <p class="mb-4 text-lg ">{item.para}</p>)}
   <section class="my-8">
-    <h2 class="my-10 text-2xl capitalize text-primary md:text-3xl">{t("aboutme.skills")}</h2>
+    <h2 class="my-10 text-2xl capitalize text-primary md:text-3xl">
+      {t("aboutme.skills")}
+    </h2>
     <Skills />
   </section>
   <section class="my-8">
