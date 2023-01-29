@@ -48,10 +48,11 @@ export const PROJECTS = {
   info: [
     {
       description:
-        "Inspired by crypto.com/price, cryptocurrency price tracker  built with React and powered by the Coingecko API. ",
+        "Inspired by crypto.com/price, cryptocurrency price tracker  built with React and powered by the Coingecko API.",
       github: "https://github.com/JoseValdezGaxiola/cryptomarket",
       website: "https://cryptomarket-project.netlify.app/",
       image: "/cryptomarket.avif",
+      
     },
     {
       description:
