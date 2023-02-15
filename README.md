@@ -14,7 +14,7 @@
 - `components/*` - Various components used throughout the site.
 - `layouts/*` - Layout using the <slot /> placeholder to render child elements.
 
-- `pages/es/*` - [`/es`](https://braydoncoyer.dev/es), Translated route generated with i18n
+- `pages/es/*` - [`/es`](https://josevaldez.dev/es), Translated route generated with i18n
 - `pages/*` - index and about routes.
 - `public/locales/*` - locales files for i18n
 - `public/*` - Static assets
